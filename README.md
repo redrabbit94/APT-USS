@@ -3,19 +3,19 @@ This is the official repository of [paper: AUDIO PROMPT TUNING FOR UNIVERSAL SOU
 ![pipeline](https://github.com/redrabbit94/APT-USS/assets/29458099/8058871c-3b3f-4f24-b8ad-1c6d7cbe2a32)
 
 ## Demo Page
-Demo page 
+[Demo page](https://redrabbit94.github.io/APT-USS.github.io/) 
 
 ## Results
 We evaluate our method on MUSDB18 and ESC-50 dataset. Average SDR scores of APT and average prompt embedding without tuning (Baseline) list in the following table.
 
-|         |MUSDB18_fulldata|ESC-50_fulldata|
+|  Model  |MUSDB18_fulldata|ESC-50_fulldata|
 |  -----  |   -----    |    -----  |   
 |   APT   |   4.98     |    8.50   | 
 |Baseline |   4.31     |    6.44   |
 
 Few-shot experiments are carried on ESC-50 datasets.
 
-|         |ESC-50_1-shot|ESC-50_5-shot|ESC-50_10-shot|
+|  Model  |ESC-50_1-shot|ESC-50_5-shot|ESC-50_10-shot|
 |  -----   |    -----    |    -----   |     -----  |
 |   APT    |    4.57     |    6.68    |     7.59    |
 |Baseline  |    4.09     |    5.59    |     6.10    |
