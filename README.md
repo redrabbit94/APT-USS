@@ -1,4 +1,4 @@
-# APT： Audio prompt tuning for universal sound separation
+# Audio prompt tuning for universal sound separation
 This is the official repository of [paper: AUDIO PROMPT TUNING FOR UNIVERSAL SOUND SEPARATION](). This work is a simple yet effective approach to enhance existing universal sound separation systems. Audio prompt tuning (APT) improves the separation performance of specific sources through training a small number of prompt parameters with limited data, while maintaining the generalization of the universal sound separation model by keeping its parameters frozen. The number of tuned parameters are **less than 0.1%** of the parameters of the backbone model. <br>
 ![pipeline](https://github.com/redrabbit94/APT-USS/assets/29458099/8058871c-3b3f-4f24-b8ad-1c6d7cbe2a32)
 
